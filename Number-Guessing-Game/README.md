@@ -1,0 +1,79 @@
+# Number Guessing Game
+
+A simple and interactive number guessing game built in Java. Test your luck and logic by guessing a randomly generated number within a given range!
+
+## Features
+
+- Random number generation between 1 and 100
+- Input validation to handle invalid entries
+- Feedback on whether your guess is too high or too low
+- Attempt counter with a maximum of 10 tries
+- Performance rating based on number of attempts
+- Option to play again after each round
+
+## Skills Demonstrated
+
+- **Core Java Concepts**: Random number generation, loops (while)
+- **User Input Handling**: Scanner class with input validation
+- **Conditional Statements**: if-else logic for game feedback
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/NumberGuessingGame.git
+   cd NumberGuessingGame
+   ```
+
+2. Compile the Java file:
+   ```bash
+   javac NumberGuessingGame.java
+   ```
+
+3. Run the game:
+   ```bash
+   java NumberGuessingGame
+   ```
+
+## Sample Output
+
+```
+  THE ULTIMATE NUMBER CHALLENGE   
+ I'm thinking of a number (1-100) 
+   You have 7 attempts to win! 
+----------------------------------
+[] Guess: 
+30
+LOWER | Don't give up!
+[] Guess: 
+20
+LOWER | Almost there!
+[] Guess: 
+10
+LOWER | Don't give up!
+[] Guess: 
+5
+LOWER | Keep going!
+[] Guess: 
+3
+
+ ***** EPIC WIN! *****
+The number was indeed 3.
+Your rank: Expert Scout (A-Tier)
+```
+
+## Project Structure
+
+```
+NumberGuessingGame/
+├── NumberGuessingGame.java    # Main game logic
+└── README.md                  # Project documentation
+```
+
+## Requirements
+
+- Java JDK 8 or higher
+
+## License
+
+This project is open-source and available under the MIT License.
